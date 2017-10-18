@@ -1,0 +1,18 @@
+  .outer{
+      margin:0 auto;
+      width:100%;
+      max-width:600px;
+    }
+    .hover-star{
+      color:#777777;
+      text-decoration:none;
+      font-family:Arial ,sans-serif;
+      font-size:40px;
+      line-height:40px;
+    }
+    .hover-star:hover{
+      color:#FFD700 !important;
+    }
+    span:hover>.hover-star{
+      color:#FFD700 !important;
+    }
